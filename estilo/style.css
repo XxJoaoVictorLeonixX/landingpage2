@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/The-Fairytale-Traveler-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo img{
+    max-width: 100px;
+}
+.nome img{
+    max-width: 300px;
+}
+.secleft{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.left img{
+    max-width: 500px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.right{
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.342);
+}
+.right p{
+    max-width: 500px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+.containerbtn{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 753px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    transition: .5s ease-in-out;
+    width: 180px;
+    text-align: center;
+}
+
+a:hover{
+    background-image: linear-gradient(to right,#420303,#7e0806,#bb0d0a );
+    color: rgb(255, 255, 255);
+}
