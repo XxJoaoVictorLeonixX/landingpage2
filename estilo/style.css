@@ -79,12 +79,3 @@ a:hover{
     background-image: linear-gradient(to right,#420303,#7e0806,#bb0d0a );
     color: rgb(255, 255, 255);
 }
-
-@media screen and(min-width:1300px){
-    section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 160px;
-}
-}
